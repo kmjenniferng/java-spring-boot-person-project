@@ -1,7 +1,7 @@
 # java-spring-boot-person-project
 Java Spring Boot Person Project
 
-This project contains 5 RESTful APIs to perform the following actions in PostgreSQL database.
+This project is to create 5 RESTful APIs to perform the following actions in PostgreSQL database.
 1. Add a person
 2. Get all people
 3. Get 1 person
