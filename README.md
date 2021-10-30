@@ -3,8 +3,8 @@ Java Spring Boot Person Project
 
 This project is to create 5 RESTful APIs to perform the following actions in PostgreSQL database.
 1. Add a person
-2. Get all people
-3. Get 1 person
+2. Get data for all people
+3. Get data for 1 person
 4. Delete 1 person
 5. Update person name
 
@@ -23,7 +23,7 @@ Body: { "name":"Peter Smith" }
 
 Expected testing result: person will be added into PostgreSQL database and person id will be returned from response.
 
-2. Get all people
+2. Get data for all people
 
 HTTP:GET localhost:8080/api/v1/person
 
@@ -31,7 +31,7 @@ Headers: Key = Content-Type, Value = application/json
 
 Expected testing result: all people data from PostgreSQL database will be shown in response.
 
-3. Get 1 person
+3. Get data for 1 person
 
 HTTP:GET: localhost:8080/api/v1/person/{person_id}
 
