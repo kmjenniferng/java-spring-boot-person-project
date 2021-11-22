@@ -7,9 +7,9 @@ The purpose of this project is to create 5 RESTful APIs to perform the following
 4. **Delete 1 person**
 5. **Update person name**
 
-## Application Structure
+## Application Architecture
 
-Request -> (HTTP:GET/POST/DELETE/PUT) API layer/Controller layer -> Service layer -> Data Access layer -> PostgreSQL database
+<img src="https://github.com/kmjenniferng/java-spring-boot-person-project/blob/main/system_architecture.png">
 
 ## Instructions on running tests using POSTMAN
 1. **Add a person**
