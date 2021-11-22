@@ -1,4 +1,4 @@
-# Creating RESTful APIs using Java and Spring Boot
+# Creating RESTful APIs using Java, Spring Boot and PostgreSQL database
 
 The purpose of this project is to create 5 RESTful APIs to perform the following actions in PostgreSQL database.
 1. **Add a person**
